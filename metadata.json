@@ -1,0 +1,6 @@
+{
+  "name": "Arts Learning Experience | Early Childhood Education",
+  "description": "A comprehensive, research-based educational hub for Early Childhood Education integrating Music, Visual Arts, Dance, Media Arts, and Drama with EYLF curriculum outcomes and Bloom's Taxonomy assessment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

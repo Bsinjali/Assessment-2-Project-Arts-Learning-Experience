@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Soft shadow filter -->
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(250, 250)">
+    <!-- Top Petal (Coral / Terracotta) - Angle 0 deg (pointing up) -->
+    <g transform="rotate(0)">
+      <path d="M 0,-62 C -42,-100 -48,-150 0,-215 C 48,-150 42,-100 0,-62 Z" 
+            fill="#E0623A" />
+    </g>
+
+    <!-- Bottom Left Petal (Golden Ochre / Amber) - Angle 240 deg (pointing down-left) -->
+    <g transform="rotate(240)">
+      <path d="M 0,-62 C -42,-100 -48,-150 0,-215 C 48,-150 42,-100 0,-62 Z" 
+            fill="#F2B035" />
+    </g>
+
+    <!-- Bottom Right Petal (Teal / Eucalyptus) - Angle 120 deg (pointing down-right) -->
+    <g transform="rotate(120)">
+      <path d="M 0,-62 C -42,-100 -48,-150 0,-215 C 48,-150 42,-100 0,-62 Z" 
+            fill="#248F89" />
+    </g>
+
+    <!-- Central Ring & Core -->
+    <!-- Dark slate navy outer circle ring -->
+    <circle cx="0" cy="0" r="48" fill="#FDFBF7" stroke="#263645" stroke-width="9" />
+  </g>
+</svg>
